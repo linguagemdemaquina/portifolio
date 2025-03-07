@@ -6,10 +6,26 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #1e201f;
   font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+}
+.conteiner_principal {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 300vh;
+}
+.imagem_plano_de_fundo {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../imagens/plano_de_fundo.jpg);
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  position: relative;
 }
 
 

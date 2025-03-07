@@ -17,6 +17,13 @@
         <link rel="stylesheet" href="css/folha_de_estilos.css?<?php echo date("Y-m-d H:i:s"); ?>">
     </head>
     <body>
+        <section id="conteiner_principal" class="conteiner_principal">
+            <div id="imagem_plano_de_fundo" class="imagem_plano_de_fundo"></div>
+
+        </section>
+        <footer id="rodape" class="rodape">
+            <p>Desenvolvido por Marcelo Tosta de Santana - 2025</p>
+        </footer>
 
     </body>
 </html>
