@@ -14,7 +14,7 @@
         <!-- Icone -->
         <link rel="shortcut icon" type="image/icon" href="imagens/icones/icone.png">
         <!-- CSS Personalizado -->
-        <link rel="stylesheet" href="css/folhadeestilos.css?<?php echo date("Y-m-d H:i:s"); ?>">
+        <link rel="stylesheet" href="css/folha_de_estilos.css?<?php echo date("Y-m-d H:i:s"); ?>">
     </head>
     <body>
 
