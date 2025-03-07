@@ -15,16 +15,16 @@
         <link rel="shortcut icon" type="image/icon" href="imagens/icones/icone.png">
         <!-- CSS Personalizado -->
         <link rel="stylesheet" href="css/folha_de_estilos.css?<?php echo date("Y-m-d H:i:s"); ?>">
+        <!-- JavaScript Personalizado -->
+        <script src="js/efeito_parallax.js?<?php echo date("Y-m-d H:i:s"); ?>"></script>
     </head>
     <body>
         <section id="conteiner_principal" class="conteiner_principal">
             <div id="bg_plano_de_fundo_principal" class="bg_plano_de_fundo_principal"></div>
-            <div id="carro_transparente" class="carro_transparente"></div>
-
+            <div id="carro_transparente" class="camada_parallax" velocidade="0.2" taxa_crescimento="0.0025" style="background-image: url(imagens/carro.png); top:52vh;"></div>
         </section>
         <footer id="rodape" class="rodape">
             <p>Desenvolvido por Marcelo Tosta de Santana - 2025</p>
         </footer>
-
     </body>
 </html>

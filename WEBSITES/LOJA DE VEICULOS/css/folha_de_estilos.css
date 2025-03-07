@@ -11,18 +11,34 @@ body {
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+  overflow-x: hidden;
 }
 .conteiner_principal {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  width: 100%;
   height: 300vh;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 .bg_plano_de_fundo_principal {
-  width: 100%;
-  height: 115vh;
+  transform: translateZ(20px);
+  width: 150%;
+  height: 110vh;
   background:linear-gradient(180deg, #23424a, #222525, #000000);
   position: relative;
+}
+.camada_parallax {
+  width: 60%;
+  height: 45vh;
+  margin-left: 20%;
+  position:absolute;
+  background-size: contain;
+  background-position:center;
+  background-repeat:no-repeat;
+  transition: transform 0.6s linear;
+  transform-origin: center;
+  overflow: hidden;
 }
  
 
