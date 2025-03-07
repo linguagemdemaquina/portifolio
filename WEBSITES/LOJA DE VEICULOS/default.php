@@ -17,8 +17,6 @@
         <link rel="stylesheet" href="css/folhadeestilos.css?<?php echo date("Y-m-d H:i:s"); ?>">
     </head>
     <body>
-        <?php include 'header.php'; ?>
-        <?php include 'nav.php'; ?>
-        <?php include 'footer.php'; ?>
+
     </body>
 </html>
