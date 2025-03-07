@@ -18,7 +18,8 @@
     </head>
     <body>
         <section id="conteiner_principal" class="conteiner_principal">
-            <div id="imagem_plano_de_fundo" class="imagem_plano_de_fundo"></div>
+            <div id="bg_plano_de_fundo_principal" class="bg_plano_de_fundo_principal"></div>
+            <div id="carro_transparente" class="carro_transparente"></div>
 
         </section>
         <footer id="rodape" class="rodape">
