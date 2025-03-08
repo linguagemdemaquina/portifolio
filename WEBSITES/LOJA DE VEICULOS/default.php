@@ -74,8 +74,8 @@
                     <div class="card">
                         <div class="card-inner">
                         <div class="card-front">
-                            <img src="imagem3.jpg" alt="Card 3">
-                            <h3>Título da Imagem 3</h3>
+                            <img src="imagens/cards/estoque_3.jpg" alt="Card 3">
+                            <h3>Honda HRV 2019/20</h3>
                         </div>
                         <div class="card-back">
                             <p>Descrição detalhada do conteúdo da foto 3.</p>
