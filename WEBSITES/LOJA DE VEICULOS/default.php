@@ -23,7 +23,7 @@
             <div id="bg_plano_de_fundo_principal" class="bg_plano_de_fundo_principal"></div>
             <div id="logomarca" class="logomarca"></div>
             <div id="carro" class="camada_parallax" velocidade="0.2" taxa_crescimento="0.0020" style="background-image: url(imagens/carro.png); top:52vh;"></div>
-            <!-- início seçao nossa loja -->
+            <!-- início da seçao nossa loja -->
             <section id="nossa_loja" class="nossa_loja">
                 <div id="titulo_nossa_loja" class="titulo_nossa_loja">Nossa Loja</div>
                 <div id="texto_nossa_loja" class="texto_nossa_loja">
@@ -43,10 +43,87 @@
                 </div>
                 <!-- fim do carrossel de imagens -->
             </section>
+            <!-- fim da seçao nossa loja -->
+            <!-- início da seçao nossa estoque -->
+            <section  id="estoque" class="estoque">
+                <div id="titulo_estoque" class="titulo_estoque">Estoque</div>
+                <!-- início cards de estoque -->
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="imagens/cards/estoque_1.jpg" alt="Card 1">
+                                <h3>Ford Territory Titanium 2024/25</h3>
+                            </div>
+                            <div class="card-back">
+                                <p>Descrição detalhada do conteúdo da foto 1.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                        <div class="card-front">
+                            <img src="imagens/cards/estoque_2.jpg"  alt="Card 2">
+                            <h3>VW Golf GTI 2020/21</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Descrição detalhada do conteúdo da foto 2.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                        <div class="card-front">
+                            <img src="imagem3.jpg" alt="Card 3">
+                            <h3>Título da Imagem 3</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Descrição detalhada do conteúdo da foto 3.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="imagem4.jpg" alt="Card 4">
+                                <h3>Título da Imagem 4</h3>
+                            </div>
+                            <div class="card-back">
+                                <p>Descrição detalhada do conteúdo da foto 4.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                        <div class="card-front">
+                            <img src="imagem5.jpg" alt="Card 5">
+                            <h3>Título da Imagem 5</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Descrição detalhada do conteúdo da foto 5.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                        <div class="card-front">
+                            <img src="imagem6.jpg" alt="Card 6">
+                            <h3>Título da Imagem 6</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Descrição detalhada do conteúdo da foto 6.</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- fim cards de estoque -->
+            </section>
+            <!-- fim da seçao estoque -->
+            <footer id="rodape" class="rodape">
+                <p>Desenvolvido por Marcelo Tosta de Santana - 2025</p>
+            </footer>
         </section>
-        <!-- fim seção nossa loja -->
-        <footer id="rodape" class="rodape">
-            <p>Desenvolvido por Marcelo Tosta de Santana - 2025</p>
-        </footer>
+
+
     </body>
 </html>
