@@ -23,10 +23,22 @@ body {
 }
 .bg_plano_de_fundo_principal {
   transform: translateZ(20px);
-  width: 150%;
+  width: 100%;
   height: 110vh;
   background:linear-gradient(180deg, #23424a, #222525, #000000);
   position: relative;
+}
+.logomarca{
+  width: 50%;
+  height: 60vh;
+  position: absolute;
+  top: 12vh;
+  margin-left: 24.5%;
+  background-image: url('../imagens/logomarca.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  translate: translateZ(-3px);
 }
 .camada_parallax {
   width: 60%;
@@ -40,7 +52,69 @@ body {
   transform-origin: center;
   overflow: hidden;
 }
+.nossa_loja {
+  width: 100%;
+  height: 60vh;
+  display:flexbox;
+  justify-content:center;
+  align-items: start;  
+}
+.titulo_nossa_loja {
+  width: 100%;
+  height: 5vh;
+  font-size: 1.8em;
+  color: #bbc4c7;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 7vh;
+}
+.texto_nossa_loja{
+  width: 70%;
+  height: 20vh;
+  margin-left: 15%;
+  font-size: 1.1em;
+  color: #adc0c8;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 7vh;
+}
  
+
+
+.carrossel {
+  width: 60%;
+  height: 60vh; 
+  margin-left: 20%;
+  margin-top: 20vh;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+.painel_de_slides {
+  display: flex;
+  width: 300%;
+  animation: slide 13.5s infinite;
+}
+.slide {
+  width: 100%;
+  flex-shrink: 1;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+@keyframes slide {
+  0% { transform: translateX(0); }
+  14.28% { transform: translateX(0); } /* Pausa na primeira imagem */
+  28.57% { transform: translateX(-33.3%); }
+  42.85% { transform: translateX(-33.3%); } /* Pausa na segunda imagem */
+  57.14% { transform: translateX(-66.6%); }
+  71.42% { transform: translateX(-66.6%); } /* Pausa na terceira imagem */
+  100% { transform: translateX(0); }
+}
+
+
 
 
 
