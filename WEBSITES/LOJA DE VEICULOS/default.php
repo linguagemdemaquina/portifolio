@@ -85,8 +85,8 @@
                     <div class="card">
                         <div class="card-inner">
                             <div class="card-front">
-                                <img src="imagem4.jpg" alt="Card 4">
-                                <h3>Título da Imagem 4</h3>
+                                <img src="imagens/cards/estoque_4.jpg" alt="Card 4">
+                                <h3>Chevrolet Cruze LTZ 2019/20</h3>
                             </div>
                             <div class="card-back">
                                 <p>Descrição detalhada do conteúdo da foto 4.</p>
@@ -96,8 +96,8 @@
                     <div class="card">
                         <div class="card-inner">
                         <div class="card-front">
-                            <img src="imagem5.jpg" alt="Card 5">
-                            <h3>Título da Imagem 5</h3>
+                            <img src="imagens/cards/estoque_5.jpg" alt="Card 5">
+                            <h3>Peugeot 2008 GT 2024/25</h3>
                         </div>
                         <div class="card-back">
                             <p>Descrição detalhada do conteúdo da foto 5.</p>
@@ -107,8 +107,8 @@
                     <div class="card">
                         <div class="card-inner">
                         <div class="card-front">
-                            <img src="imagem6.jpg" alt="Card 6">
-                            <h3>Título da Imagem 6</h3>
+                            <img src="imagens/cards/estoque_6.jpg" alt="Card 6">
+                            <h3>BMW Série 3 2021/22</h3>
                         </div>
                         <div class="card-back">
                             <p>Descrição detalhada do conteúdo da foto 6.</p>

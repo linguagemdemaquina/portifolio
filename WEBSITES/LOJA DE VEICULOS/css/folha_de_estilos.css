@@ -91,7 +91,7 @@ body {
 .painel_de_slides {
   display: flex;
   width: 300%;
-  animation: slide 13.5s infinite;
+  animation: slide 12s infinite;
 }
 .slide {
   width: 100%;
