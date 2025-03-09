@@ -1,6 +1,7 @@
 <!-- 
     Autor: Marcelo Tosta de Santana - Fullstack Dev 
-    Portifolio - PHP - linguagemdemaquina.com.br
+    Portifolio - linguagemdemaquina.com.br
+    Recursos : HTML, CSS, JavaScript, PHP, MySql
     Data do Projeto : 06/03/2025
     Github: https://github.com/linguagemdemaquina/portifolio/
 -->
@@ -10,13 +11,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="cache-control" content="no-cache"/>
-        <title>Portifólio - PHP - linguagemdemaquina.com.br - v.1'</title>
+        <title>Portifólio - linguagemdemaquina.com.br'</title>
         <!-- Icone -->
         <link rel="shortcut icon" type="image/icon" href="imagens/icones/icone.png">
         <!-- CSS Personalizado -->
         <link rel="stylesheet" href="css/folha_de_estilos.css?<?php echo date("Y-m-d H:i:s"); ?>">
         <!-- JavaScript Personalizado -->
         <script src="js/efeito_parallax.js?<?php echo date("Y-m-d H:i:s"); ?>"></script>
+
     </head>
     <body>
         <section id="conteiner_principal" class="conteiner_principal">
@@ -71,7 +73,7 @@
                             <h3>Volkswagen Golf TSI 2019/20</h3>
                         </div>
                         <div class="card-back">
-                        Km : 64.825
+                        Km : 54.825
                         <br>
                         <br>
                         Teto solar panorâmico, controle adaptativo de velocidade e distância (ACC), sistema park assist 2.0, faróis e lanternas traseiras em LED, sistema de proteção ativa dos ocupantes (Pro-Active), sistema de controle do farol alto, sensor de fadiga
@@ -85,7 +87,7 @@
                             <h3>Honda HRV EXL AT 2019/20</h3>
                         </div>
                         <div class="card-back">
-                        Km : 86.237
+                        Km : 76.237
                         <br>
                         <br>
                         Ar-condicionado automático, bancos em couro, controle automático de velocidade, freio de estacionamento elétrico, retrovisores elétricos e rebatíveis, rodas de liga leve, volante multifuncional com paddle shifts, airbags (frontais, laterais e cortina), controle de estabilidade e tração, freios ABS / EBD.
@@ -96,10 +98,13 @@
                         <div class="card-inner">
                             <div class="card-front">
                                 <img src="imagens/cards/estoque_4.jpg" alt="Card 4">
-                                <h3>Chevrolet Cruze LTZ 2019/20</h3>
+                                <h3>Chevrolet Cruze LTZ 2020/20</h3>
                             </div>
                             <div class="card-back">
-                                <p>Descrição detalhada do conteúdo da foto 4.</p>
+                            Km : 46.717
+                            <br>
+                            <br>
+                            Partida remota, ar-condicionado automático, assistente de estacionamento, chave presencial, airbags de cortina, frontais e laterais, alerta de colisão frontal e mudança de faixa, alerta de ponto cego, controle de estabilidade e tração, freios ABS/EBD.
                             </div>
                         </div>
                     </div>
@@ -107,10 +112,13 @@
                         <div class="card-inner">
                         <div class="card-front">
                             <img src="imagens/cards/estoque_5.jpg" alt="Card 5">
-                            <h3>Peugeot 2008 GT 2024/25</h3>
+                            <h3>Peugeot 2008 Style 2024/24</h3>
                         </div>
                         <div class="card-back">
-                            <p>Descrição detalhada do conteúdo da foto 5.</p>
+                        Km : 18.269
+                        <br>
+                        <br>
+                        Multimídia com Apple CarPlay e Android Auto, computador de bordo piloto automático, rodas de liga leve, seis airbags, sensor de estacionamento traseiro e câmera,teto solar panorâmico, sistema de som premium, bancos em couro. 
                         </div>
                         </div>
                     </div>
@@ -118,15 +126,41 @@
                         <div class="card-inner">
                         <div class="card-front">
                             <img src="imagens/cards/estoque_6.jpg" alt="Card 6">
-                            <h3>BMW Série 3 2021/22</h3>
+                            <h3>BMW Série 3 2020/21</h3>
                         </div>
                         <div class="card-back">
-                            <p>Descrição detalhada do conteúdo da foto 6.</p>
+                        Km : 38.612
+                        <br>
+                        <br>
+                        Teto Solar, display head-up (projeção de informações no para-brisa), controle por gestos, faróis adaptativos, monitoramento de ponto cego, alerta de faixa e ponto cego, sensores de estacionamento, controle de cruzeiro adaptativo, rodas de 19 polegadas, freios ABS/EBD, suspensão esportiva e kit aerodinâmico.
                         </div>
                         </div>
                     </div>
                 </div>
                 <!-- fim cards de estoque -->
+                 <div id="conteiner_botao_ver_estoque" class="conteiner_botao_ver_estoque">
+                    <button id="botao_ver_estoque" class="botao_ver_estoque">Ver todo o estoque</button>
+                    <!-- início do modal -->
+                    <div id="modal" class="modal">
+                        <div id="titulo_modal_estoque" class="titulo_modal_estoque">
+                            Estoque completo
+                            <br>
+                        </div>
+                        <div class="modal-content">
+                            <button id="closeModal" class="close-button">X</button>
+                            <div class="image-container">
+                                <img src="imagens/cards/estoque_1.jpg" alt="Imagem 1" />
+                                <img src="imagens/cards/estoque_2.jpg" alt="Imagem 2" />
+                                <img src="imagens/cards/estoque_3.jpg" alt="Imagem 3" />
+                                <img src="imagens/cards/estoque_4.jpg" alt="Imagem 4" />
+                                <img src="imagens/cards/estoque_5.jpg" alt="Imagem 5" />
+                                <img src="imagens/cards/estoque_6.jpg" alt="Imagem 6" />
+                            </div>
+                            </div>
+                        </div>
+                        <script src="js/modal.js?<?php echo date("Y-m-d H:i:s"); ?>"></script>
+                    <!-- fim do modal -->
+                 </div>
             </section>
             <!-- fim da seçao estoque -->
             <footer id="rodape" class="rodape">
