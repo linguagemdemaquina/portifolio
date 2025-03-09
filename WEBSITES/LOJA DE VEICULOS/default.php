@@ -22,7 +22,7 @@
         <section id="conteiner_principal" class="conteiner_principal">
             <div id="bg_plano_de_fundo_principal" class="bg_plano_de_fundo_principal"></div>
             <div id="logomarca" class="logomarca"></div>
-            <div id="carro" class="camada_parallax" velocidade="0.2" taxa_crescimento="0.0020" style="background-image: url(imagens/carro.png); top:52vh;"></div>
+            <div id="carro" class="camada_parallax" velocidade="0.2" taxa_crescimento="0.0020" style="background-image: url(imagens/carro.png); top:50vh;"></div>
             <!-- início da seçao nossa loja -->
             <section id="nossa_loja" class="nossa_loja">
                 <div id="titulo_nossa_loja" class="titulo_nossa_loja">Nossa Loja</div>
@@ -47,16 +47,20 @@
             <!-- início da seçao nossa estoque -->
             <section  id="estoque" class="estoque">
                 <div id="titulo_estoque" class="titulo_estoque">Estoque</div>
+                <div id="texto_estoque" class="texto_estoque">Veículos em destaque</div>
                 <!-- início cards de estoque -->
                 <div class="card-container">
                     <div class="card">
                         <div class="card-inner">
                             <div class="card-front">
                                 <img src="imagens/cards/estoque_1.jpg" alt="Card 1">
-                                <h3>Ford Territory Titanium 2024/25</h3>
+                                <h3>Ford Territory Titanium 2023/24</h3>
                             </div>
                             <div class="card-back">
-                                <p>Descrição detalhada do conteúdo da foto 1.</p>
+                                Km : 22.318
+                                <br>
+                                <br>
+                                Airbags (frontais, laterais e cortina), controle eletrônico de estabilidade e tração, freios ABS / EBD, faróis e lanternas em LED, painel de instrumentos digital e central multimídia de 10,1 pol., ar-condicionado dual zone, carregador de celular por indução, teto solar e bancos em couro.
                             </div>
                         </div>
                     </div>
@@ -64,10 +68,13 @@
                         <div class="card-inner">
                         <div class="card-front">
                             <img src="imagens/cards/estoque_2.jpg"  alt="Card 2">
-                            <h3>VW Golf GTI 2020/21</h3>
+                            <h3>Volkswagen Golf TSI 2019/20</h3>
                         </div>
                         <div class="card-back">
-                            <p>Descrição detalhada do conteúdo da foto 2.</p>
+                        Km : 64.825
+                        <br>
+                        <br>
+                        Teto solar panorâmico, controle adaptativo de velocidade e distância (ACC), sistema park assist 2.0, faróis e lanternas traseiras em LED, sistema de proteção ativa dos ocupantes (Pro-Active), sistema de controle do farol alto, sensor de fadiga
                         </div>
                         </div>
                     </div>
@@ -75,10 +82,13 @@
                         <div class="card-inner">
                         <div class="card-front">
                             <img src="imagens/cards/estoque_3.jpg" alt="Card 3">
-                            <h3>Honda HRV 2019/20</h3>
+                            <h3>Honda HRV EXL AT 2019/20</h3>
                         </div>
                         <div class="card-back">
-                            <p>Descrição detalhada do conteúdo da foto 3.</p>
+                        Km : 86.237
+                        <br>
+                        <br>
+                        Ar-condicionado automático, bancos em couro, controle automático de velocidade, freio de estacionamento elétrico, retrovisores elétricos e rebatíveis, rodas de liga leve, volante multifuncional com paddle shifts, airbags (frontais, laterais e cortina), controle de estabilidade e tração, freios ABS / EBD.
                         </div>
                         </div>
                     </div>
